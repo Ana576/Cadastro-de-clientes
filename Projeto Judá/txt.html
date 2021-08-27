@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset='utf-8'>
+    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+    <title>Sistema de Cadastro</title>
+    <meta name='viewport' content='width=device-width, initial-scale=1'>
+    <link rel='stylesheet' type='text/css' media='screen' href='style.css'>
+    <script src='main.js'></script>
+    
+</head>
+
+<body>
+
+    <div class="registroformulario">
+        <h1>Formulario de Cadastro</h1>
+    </div>
+
+    <div class="conteudo">
+
+        <form>
+
+            <div id="nome">
+
+                <label class="Fonte">Nome <input class="Primeironome" type="text" name="primeiro_nome"></label>
+                
+                <label class="Fonte">Sobrenome<input class="sobrenome" type="text" name="sobre_nome"></label>
+
+            </div>
+
+            <h2 class="nome">Empresa</h2>
+            <input class="empresa" type="text" name="empresa">
+
+            <h2 class="nome">Email</h2>
+            <input class="email" type="text" name="email">
+
+
+            <h2 class="nome">Telefone com DDD</h2>
+            <input class="codigo" type="text" name="codigo_area">
+            <label class="codigo_area">DDD</label>
+            <input class="number" type="text" name="phone"> <label class="numero-telefone">Telefone</label>
+
+            <h2 class="nome">Sexo</h2>
+            
+
+            <select class="opcoes" name="assunto" >
+
+              <option disabled="disabled" selected="select">.. Selecione a opção</option>
+              <option>Masculino</option>
+              <option>Feminino</option>
+
+
+            </select>
+
+            <h2 class="nivel"> Você é iniciante?</h2>
+
+
+            <label class="radio">
+
+                <input class="radio.one" type="radio" name="radio" checked="checked" name="" >
+                <span class="checkmark" ></span>
+
+                Sim 
+
+                </label>
+
+                <label class="radio">
+
+                    <input class="radio.two" type="radio" name="radio" checked="checked" name="" >
+                    <span class="checkmark" ></span>
+    
+                    Não 
+    
+                    </label>
+
+
+                <button type="submit"> Enviar</button>
+
+
+            </label>
+
+
+        </form>
+
+
+
+    </div>
+
+
+
+
+
+
+
+</body>
+
+</html>
